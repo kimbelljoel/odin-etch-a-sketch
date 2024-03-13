@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+#grid-container {
+  height: 400px;
+  width: 400px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+
+.grid-item {
+  background-color: white;
+  border: 1px solid black;
+}
